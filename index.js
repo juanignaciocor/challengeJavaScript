@@ -1,4 +1,4 @@
-class Concensionaria {
+class Concesionaria {
     constructor() {
         this.vehiculos = []
     }
@@ -112,11 +112,11 @@ let motoUno = new Motos("Yamaha", "YBR", 80500.50, "160c")
 
 
 
-let miConcensionaria = new Concensionaria
-miConcensionaria.añadirVehiculo(autoUno, motoDos, autoDos, motoUno)
-miConcensionaria.lista()
+let miConcesionaria = new Concesionaria
+miConcesionaria.añadirVehiculo(autoUno, motoDos, autoDos, motoUno)
+miConcesionaria.lista()
 console.log("---------------------------------------------------")
 console.log("---------------------------------------------------")
-miConcensionaria.precios()
-miConcensionaria.buscarletras("Y")
-miConcensionaria.order()
+miConcesionaria.precios()
+miConcesionaria.buscarletras("Y")
+miConcesionaria.order()
